@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'package:portfolio_app/components/footer.dart';
-import 'package:portfolio_app/components/header.dart';
-import 'components/jumbotron.dart';
+import 'package:portfolio/components/footer.dart';
+import 'package:portfolio/components/header.dart';
+import 'components/home.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -21,9 +21,19 @@ class HomeScreen extends StatelessWidget {
           children: const <Widget>[
             Header(),
 
-            Jumbotron(),
+            Home(),
 
-            // Footer()
+            // Education(),
+
+            // Skills(),
+
+            // Experience(),
+
+            // PastProjects(),
+
+            // Achievements(),
+
+            Footer()
           ],
         ),
       ),
